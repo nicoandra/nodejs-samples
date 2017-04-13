@@ -1,0 +1,11 @@
+{
+  "name": "nodejspresentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "everythingIsAnObject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
