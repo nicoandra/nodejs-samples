@@ -5,6 +5,13 @@
 4-call this script as DEBUG="*" node proxy.js . To reduce client output, you can set DEBUG to "*,-clients".
 5-Call set.php
 
+
+You can see in Memcached the number of connections. Surprisingly, it will be very low. The reason being that the proxy keeps the connection open.
+Try running:
+
+echo "stats" | netcat 127.0.0.1 11211 | grep conn
+
+
 */
 
 const net = require('net');
