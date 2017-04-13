@@ -13,6 +13,7 @@
   "author": "Nicolás Andrade <nico@nmac.com.ar>",
   "license": "ISC",
   "dependencies": {
+    "debug": "^2.6.3",
     "request": "^2.81.0"
   }
 }
